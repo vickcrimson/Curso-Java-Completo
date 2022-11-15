@@ -1,0 +1,26 @@
+package arrays;
+
+import java.util.Arrays;
+
+public class Exercicio {
+	public static void main(String[] args) {
+		//  modelo array: double[] arrayExemplo = new double[] ;
+		double[] notasAlunoA = new double[3];
+		notasAlunoA[0] = 6.9;
+		notasAlunoA[1] = 8.5;
+		notasAlunoA[2] = 7.2;
+		
+		//Para imprimir o resultado nós importamos a lib "Arrays"/
+		System.out.println(Arrays.toString(notasAlunoA));
+		
+		//Propriedae length
+		
+		double total = 0;
+		for(int i = 0; i < notasAlunoA.length; i++ ) {
+			total += notasAlunoA[i];
+		}
+		
+		System.out.println(total / 3);
+	}
+	
+}

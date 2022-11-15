@@ -1,0 +1,28 @@
+package colections;
+
+import java.util.HashSet;
+
+public class ConjuntoBagunçado {
+	
+	public static void main(String[] args) {
+	
+		HashSet conjunto = new HashSet();
+		// adicionando elementos
+		conjunto.add(1.2);
+		conjunto.add(true);
+		conjunto.add("Teste");
+		conjunto.add(1);
+		conjunto.add('x');
+
+		//quantificando elementos
+		System.out.println(conjunto.size());
+
+		
+		//removendo elementos
+		System.out.println(conjunto.remove(1.2));
+		
+		//checando 
+		
+	System.out.println(conjunto.contains(false));
+	}
+}

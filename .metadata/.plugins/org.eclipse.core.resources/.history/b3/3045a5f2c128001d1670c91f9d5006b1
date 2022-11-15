@@ -1,0 +1,17 @@
+package fundamentos;
+
+public class Console {
+	public static void main(String[] args) {
+		// Print sem o "ln" mantem o texto na mesma linha
+		System.out.print("Boa");
+		System.out.print(" noite!"); // \n pode criar uma nova linha
+		
+		//Print com o "ln" cria um linha após finalizar o string
+		System.out.println("Boa");
+		System.out.println(" tarde!");
+		
+		//Printf não tem quebra de linha
+		System.out.printf("Megasena: %d %d %d %d %d %d \n", 6, 7 ,18 ,20 ,32, 55); // \n cria a quebra de linha
+		System.out.printf("Salário: %.1f", 1212.5897);
+	}
+}

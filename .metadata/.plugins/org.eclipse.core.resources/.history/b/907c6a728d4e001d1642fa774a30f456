@@ -1,0 +1,33 @@
+package colections;
+
+import java.util.ArrayList;
+
+public class List {
+	public static void main(String[] args) {
+		
+		/* A Lista é um conjunto onde:
+		 * - Pode ser Homogêneo ou Heterogêneo
+		 * - Aceita objetos duplicados
+		 * - É Orientado
+		 * - É Indexado */
+		
+		ArrayList<Usuario> list = new ArrayList<>();
+		
+		Usuario ul = new Usuario("Ana");
+		list.add(ul);
+		
+		list.add(new Usuario("Hwasa"));
+		list.add(new Usuario("Isla Bonita"));
+		list.add(new Usuario("Inês Brasil"));
+		list.add(new Usuario("Montoya"));
+		
+		System.out.println(list.get(2));
+		
+		for(Usuario u: list) {
+			System.out.println(u.nome); // chama somente o nome
+			System.out.println(u); // chama a expressão
+		}
+	}
+	
+	
+}

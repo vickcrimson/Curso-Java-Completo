@@ -1,0 +1,31 @@
+package fundamentos;
+
+import java.awt.geom.Point2D.Double;
+import java.util.Scanner;
+import java.util.concurrent.atomic.DoubleAdder;
+
+public class DesafioConversão {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Digite o salário do mês Julho: ");
+		String sala07 = entrada.nextLine();
+		System.out.print("Digite o salário do mês Agosto: ");
+		String sala08 = entrada.nextLine();
+		System.out.print("Digite o salário do mês Setembro: ");
+		String sala09 = entrada.nextLine();
+		
+		float wage1 = Float.parseFloat(sala07);
+		float wage2 = Float.parseFloat(sala08);
+		float wage3 = Float.parseFloat(sala09);
+		
+		float soma = wage1 + wage2 + wage3;
+		System.out.println("A soma entre os salários é igual à: " + soma );
+		
+		
+		
+		
+		
+		entrada.close();
+	}
+}

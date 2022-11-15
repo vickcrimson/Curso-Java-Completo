@@ -1,0 +1,16 @@
+package fundamentos.operadores;
+
+public class Relacionais {
+	public static void main(String[] args) {
+		int a = 24;
+		int b = 'a';
+		
+		System.out.println(a == b);
+		System.out.println(3 > 4);
+		System.out.println(5 >= 7);
+		System.out.println(6 < 2);
+		System.out.println(b != a);
+		System.out.println(30 <= 200);
+				
+	}
+}

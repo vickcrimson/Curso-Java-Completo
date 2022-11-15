@@ -1,0 +1,13 @@
+package fundamentos;
+
+public class Console {
+	public static void main(String[] args) {
+		// Print sem o "ln" mantem o texto na mesma linha
+		System.out.print("Boa");
+		System.out.print("noite!");
+		
+		//Print com o "ln" cria um linha após finalizar o string
+		System.out.println("Boa");
+		System.out.println("tarde!");
+	}
+}

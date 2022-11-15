@@ -1,0 +1,15 @@
+package fundamentos.operadores;
+
+import java.util.Scanner;
+
+public class DesafioCalculadora {
+ public static void main(String[] args) {
+	// Ler n1
+	// Ler n2
+	// Qual operador
+	 Scanner entrada = new Scanner(System.in);
+		float num1 = entrada.next();
+		
+		entrada.close();
+}
+}

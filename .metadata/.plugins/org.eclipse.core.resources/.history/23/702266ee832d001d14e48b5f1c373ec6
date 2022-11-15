@@ -1,0 +1,14 @@
+package fundamentos.operadores;
+
+public class DesafioLógicos {
+	public static void main(String[] args) {
+		// Trab terça, trab quinta (v ou F)
+		// 1 f = 32", 2 V= 50"; VV ou VF = sorvete;
+		// FF = em casa
+		
+		boolean trab1 = true; 
+		boolean trab2 = true;
+		
+		
+	}
+}

@@ -1,0 +1,10 @@
+package fundamentos;
+
+import java.util.Date; // importa realizado automaticamente para declarar o "Date"
+
+// Import fica fora da sala, são adicionais aos pacotes para fornecer alguns dados que não estão sempre disponíveis.
+public class Import {
+	public static void main(String[] args) {
+		
+	}
+}
