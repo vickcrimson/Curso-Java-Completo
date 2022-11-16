@@ -4,16 +4,12 @@ public class Carro {
 
 	Motor motor = new Motor (); // Instanciando um motor no carro
 	
-	void acelerar() { // Criar metódo de acelerar o motor com limites
-		if(motor.fatorInjecao < 2.6) {
+	void acelerar() { // Criar metódo de acelerar o motor
 		motor.fatorInjecao += 0.4;
-		}
-	} 
+	}
 	
-	void frear() { // Criar metodo de frear com limites
-		if(motor.fatorInjecao > 0.5) {
+	void frear() { // Criar metodo de frear
 		motor.fatorInjecao -= 0.4;
-		}
 	}
 	
 	void ligar( ) { // Metódo ligar carro
