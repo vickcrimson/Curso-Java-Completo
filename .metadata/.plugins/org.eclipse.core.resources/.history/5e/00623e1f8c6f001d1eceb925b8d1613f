@@ -8,12 +8,6 @@ public class Compra {
 	
 	ArrayList<Item> itens = new ArrayList<Item>();
 
-	void adicionarItem(Item item) { // criando uma relação bidirecional
-		itens.add(item);
-		item.compra = this; // Definindo que o item que estou adicionando é o próprio
-	}
-	
-	
 	double obterValorTotal() {
 		double total = 0;
 		
