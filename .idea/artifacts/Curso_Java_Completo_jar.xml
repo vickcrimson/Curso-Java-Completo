@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Curso Java Completo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Curso_Java_Completo_jar</output-path>
+    <root id="archive" name="Curso Java Completo.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
