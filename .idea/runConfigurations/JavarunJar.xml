@@ -1,8 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="JavarunJar" type="JarApplication">
-    <option name="WORKING_DIRECTORY" value="C:\Users\vickb\Documents\Code\Udemy\Java\Curso Java Completo" />
-    <option name="ALTERNATIVE_JRE_PATH" />
-    <module name="Curso Java Completo" />
-    <method v="2" />
-  </configuration>
-</component>
